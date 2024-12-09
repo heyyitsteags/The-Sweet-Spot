@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffe6f2; /* Very light pink background */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  color: #a8326f; /* Darker pink text */
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #ffe6f2; /* Match body background */
+}
+
+h1 {
+  margin: 0;
+  color: #d14784; /* Medium pink for header */
+}
+
+canvas {
+  border: 3px solid #d14784; /* Medium pink for canvas border */
+  background-color: #fff0f5; /* Light pink background for the game */
+}
+
+.about-section {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #ffd9e8; /* Light pink section background */
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
